@@ -1,0 +1,261 @@
+.rem-preview-image {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    background-color: #FFF;
+    cursor: move;
+    margin-bottom: 30px;
+}
+.rem-preview-image img {
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 100% !important;
+  width: auto;
+}
+.rem-image-wrap {
+  height: 120px;
+  overflow: hidden;
+  text-align: center;
+}
+.rem-preview-image .rem-actions-wrap {
+  padding: 0.25rem;
+  text-align: center;
+}
+.rem-preview-image .rem-actions-wrap .remove-image {
+  background: #d30505;
+  color: #FFF;
+}
+.thumbs-prev .drag-placeholder, .attachments-prev .drag-placeholder {
+    background-color: #ededed;
+    height: 169px;
+    width: 178.88px; 
+    padding: 0 !important;
+    border: 5px dashed #555454;
+}
+.rem-preview-image .rem-actions-wrap a {
+    margin: 5px;
+}
+.attachment-icon {
+    display: block;
+    margin: 8px auto;
+    max-height: 70px;
+}
+.attachment-name a {
+    display: inline-block;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;    
+}
+.ich-settings-main-wrap .wrap-file_attachments {
+    margin-bottom: 0;
+}
+.ui-accordion .ui-accordion-header {
+  cursor: pointer;
+  position: relative;
+  margin-top: 1px;
+  zoom: 1;
+}
+#accordion .ui-accordion-content {
+    max-width: 100%;
+    background-color: #ffffff;
+    color: #777;
+    padding: 10px;
+}
+#accordion .ui-accordion-content p {
+    margin: 0;
+}
+#accordion .ui-accordion-header {
+    background-color: #ccc;
+    margin: 0px;
+	padding: 10px 20px;
+	color: #ffffff;
+	outline: none;
+}
+#accordion .ui-accordion-header a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-indent: 10px;
+}
+#accordion .ui-accordion-header {
+    background-color: #389abe;
+    background-image: -moz-linear-gradient(top,  #389abe 0%, #2a7b99 100%); /* FF3.6+ */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#389abe), color-stop(100%,#2a7b99)); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(top,  #389abe 0%,#2a7b99 100%); /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(top,  #389abe 0%,#2a7b99 100%); /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(top,  #389abe 0%,#2a7b99 100%); /* IE10+ */
+    background-image: linear-gradient(to bottom,  #389abe 0%,#2a7b99 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#389abe', endColorstr='#2a7b99',GradientType=0 ); /* IE6-9 */
+}
+#accordion .ui-accordion-header a {
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    border-right: 1px solid rgba(0, 0, 0, .2);
+    border-left: 1px solid rgba(0, 0, 0, .2);
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    border-top: 1px solid rgba(250, 250, 250, .2);
+}
+.pull-right {
+	float: right;
+	cursor: pointer;
+}
+.clearfix {
+	clear: both;
+}
+button span {
+	vertical-align: text-bottom !important;
+}
+.btndelete span {
+	color: red;
+}
+.btnadd span {
+	color: green;
+}
+.wcp-shortc {
+    float: right;
+    padding: 5px;
+    margin: 0;
+    min-width: 300px;
+    text-align: right;
+}
+
+#property_images_meta_box .button-secondary {
+    display: block;
+    margin: 0 auto;
+}
+#rem-settings-form .ui-icon {
+    display: inline-block;
+    text-indent: initial;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+#rem-settings-form .panel-heading .btn {
+    padding: 0 5px;
+}
+.ich-settings-main-wrap .panel {
+    margin-bottom: 10px;
+}
+
+.rem-settings-box .nav-tabs a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.rem-settings-box li a {
+    color: #000;
+}
+
+.rem-checkboxes-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 10px;
+}
+
+.rem-single-checkbox {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+.rem-single-checkbox:hover {
+    background: #eef5ff;
+    border-color: #007bff;
+}
+
+.rem-single-checkbox input[type="checkbox"] {
+    margin: 0;
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
+    accent-color: #007bff;
+}
+
+.rem-single-checkbox label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 6px 10px;
+    margin: 0;
+}
+
+
+#property_details .help-block {
+    display: none;
+}
+
+.rem-settings-box label.col-sm-3.control-label {
+    margin-top: 6px;
+}
+
+/*
+    for conditions css
+*/
+.rem-field-hide {
+    display: none;
+}
+.rem-field-show {
+    display: block;
+}
+
+#property_settings_meta_box .glyphicon-asterisk {
+    color: red;
+    font-size: 9px;
+    vertical-align: top;
+}
+
+#property_settings_meta_box select.input-sm {
+    line-height: 1.5;
+}
+
+#colors_css #custom_js {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    background-color: #413e3e;
+    color: #FFF;
+}
+
+#colors_css #custom_css {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    background-color: #E8F2FF;
+}
+
+.wrap_custom_js .help-block {
+    color: red;
+}
+
+/* gallery images fix (credits: Samuel Morgan)  */
+
+#property_images_meta_box .ich-settings-main-wrap .row {
+    margin-right: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#property_images_meta_box .ich-settings-main-wrap .row .rem-image-wrap {
+    aspect-ratio: 1/1;
+    height:140px;
+    padding: 4px;
+}
+#property_images_meta_box .ich-settings-main-wrap .row .col-sm-3 {
+    width: auto;
+    padding:5px;
+}
+#property_images_meta_box .ich-settings-main-wrap .row .rem-preview-image {
+    margin-bottom: 0px;
+    border-radius: 4px;
+    overflow:hidden;
+}
+#property_images_meta_box .ich-settings-main-wrap .row .rem-actions-wrap {
+    padding: 0;
+}
+#property_images_meta_box .ich-settings-main-wrap .row .rem-preview-image img {
+    overflow:hidden;
+    padding: 0px;
+}
